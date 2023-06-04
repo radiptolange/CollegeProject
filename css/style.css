@@ -72,12 +72,14 @@ nav ul li a:hover{
     color:white;
 }
 #contact{
-    height: 300px;
+    height: 400px;
     background-color: antiquewhite;
 }
 #blog{
     height:300px;
     background-color: #DC7633;
+    padding: 20px;
+    margin: auto;
 }
 #services{
     height: 300px;
@@ -87,5 +89,45 @@ nav ul li a:hover{
     float:left;
     width:50%;
     height: 300px;
-    background-color: red;
+    background-color: rgb(230, 143, 56);
+    text-align: left;
+}
+#services .images{
+    float:right;
+    width:50%;
+    height: 300px;
+   /* background-color: green;*/
+}
+#contact form input{
+    border-color: orange;
+    align-items: center;
+    display: block;
+    padding:10px;
+    align-content: center;
+    border-radius: 5px;
+}
+textarea{
+    border-color: orange;
+    display: block;
+    border-radius: 5px;
+}
+.submit{
+    border-color: orange;
+    border-radius: 5px;
+    color: orange;
+    font-weight: bold;
+}
+.submit:hover{
+    border-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+}
+form{
+    padding:20px;
+}
+.contacts{
+    text-align: center;
+    color: orange;
 }
