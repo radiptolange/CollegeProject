@@ -71,3 +71,21 @@ nav ul li a:hover{
 .footer a:hover{
     color:white;
 }
+#contact{
+    height: 300px;
+    background-color: antiquewhite;
+}
+#blog{
+    height:300px;
+    background-color: #DC7633;
+}
+#services{
+    height: 300px;
+    background-color: orange;
+}
+#services .list{
+    float:left;
+    width:50%;
+    height: 300px;
+    background-color: red;
+}
